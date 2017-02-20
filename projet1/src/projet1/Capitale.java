@@ -7,7 +7,9 @@ public class Capitale extends Ville {
 		this.monument="aucun";
 	}
 	public Capitale(String nm,int nbre, String pp, String mn)
-	throws NbrHabitantException{
+	throws NbrHabitantException,VilleNameException
+	{
+		
 		super(nm,nbre,pp);
 		this.monument=mn;
 		

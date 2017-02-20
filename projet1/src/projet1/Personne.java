@@ -36,6 +36,12 @@ public class Personne {
     	  return lieuDeNaissance;
       }
       public Date getDate(){
+    	  
+    /*	  int day,month,year;
+    	   day=dateDeNaissance.getDay();
+    	   month=dateDeNaissance.getMonth();
+    	   year= dateDeNaissance.getYear();
+    	  String dtNaissance=Integer.toString(dateDeNaissance.getYear()+dateDeNaissance.getMonth()+dateDeNaissance.getDay());*/
     	  return dateDeNaissance;
       }
       //******************************************************************************************************
