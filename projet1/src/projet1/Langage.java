@@ -29,7 +29,7 @@ public static void main(String arg[]){
 	Langage l1= Langage.JAVA;
 	Langage l2=Langage.PHP;
 	Langage l3=Langage.CSHARP;
-	//System.out.println(l1.toString()+' '+l1.getEditor()+' ');
+System.out.println(l1.toString()+' '+l1.getEditor()+' ');
 	
 	
 	for(Langage lang : Langage.values()){
