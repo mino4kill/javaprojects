@@ -4,6 +4,8 @@ import java.io.File;
 
 public class TrouverFichier {
 public static void main(String[] args) {
+	
+	 
   //Création de l'objet File
   File f = new File("C:\\intel");
   File f2= new File("D:\\mytest_rep");
@@ -39,7 +41,11 @@ public static void main(String[] args) {
     } catch (NullPointerException e) {
       //L'instruction peut générer une NullPointerException
       //s'il n'y a pas de sous-fichier !
+    	
     }
+    
   }
+   
   }
 }
+

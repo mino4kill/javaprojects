@@ -57,4 +57,7 @@ public class Personne {
       public void setLieux(String lx){
     	  lieuDeNaissance=lx;
       }
+     
+		
+		
 }
