@@ -91,11 +91,7 @@ BufferedInputStream  bis = new BufferredInputStream(
 	               System.out.print("\t" + bit + "(" + (char) bit + ")");
 	            }
 	            System.out.println("");
-	            //Nous réinitialisons le buffer à vide
-	            //au cas où les derniers byte lus ne soient pas un multiple de 8
-	            //Ceci permet d'avoir un buffer vierge à chaque lecture et ne pas avoir de doublon en fin de fichier
-	           // buf = new byte[8];
-	           
+	            
 
 	         }
 	         System.out.println("Copie terminée !");

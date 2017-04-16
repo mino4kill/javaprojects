@@ -1,11 +1,21 @@
 package projet1;
 //Package à importer afin d'utiliser l'objet File
 import java.io.File;
-
+/**
+ * 
+ * @author minokil
+ * {@code} 
+ * @see TrouverFichier
+ * 
+ *
+ */
 public class TrouverFichier {
+	/**
+	 * cette methode permet d'affichage du chemin exact d'un fichier
+	 * @param args
+	 */
+
 public static void main(String[] args) {
-	
-	 
   //Création de l'objet File
   File f = new File("C:\\intel");
   File f2= new File("D:\\mytest_rep");
@@ -21,6 +31,10 @@ public static void main(String[] args) {
 
   
 //===================================== afficher le contenu de tout les disque ==================================================
+  /**
+   * on afficher les lecteurs de root
+   */
+  
   System.out.println("Affichage des lecteurs à la racine du PC : ");
     for(File file : File.listRoots())
   {
@@ -38,14 +52,17 @@ public static void main(String[] args) {
         i++;
       }
       System.out.println("\n");
+      /**
+       * recuperer l'exception si ya pas de pointeurs vers le sous fichier
+       */
     } catch (NullPointerException e) {
       //L'instruction peut générer une NullPointerException
       //s'il n'y a pas de sous-fichier !
-    	
+    	int i=10;
+    	int j=++i; 
+    	System.out.println(j);
     }
-    
   }
-   
   }
 }
 

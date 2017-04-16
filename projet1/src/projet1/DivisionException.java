@@ -8,8 +8,11 @@ public class DivisionException {
 		public static void main(String[] args){
 			 int i=10;
 			    i=++i;
-			    affecte(i);
-			    try {
+			   // affecte(i);
+			   int cc='a'+1;
+			   char cb='a'+1;
+			   System.out.println(cc+" "+cb);
+			   /* try {
 					float b =10/0;
 					int t=(int)b;
 					System.out.println(t);
@@ -19,6 +22,6 @@ public class DivisionException {
 					//System.out.println(e);
 				}finally{
 					System.out.println(i);
-				}
+				}*/
 		}
 }
